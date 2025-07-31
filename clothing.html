@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Clothing</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <div class="product" data-name="T-Shirt" data-price="20" data-image="images/tshirt.jpeg">
+            <img src="images/tshirt.jpeg" alt="T-Shirt">
+            <p>T-Shirt - $20</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Jeans" data-price="40" data-image="images/jeans.jpeg">
+            <img src="images/Jeans.jpeg" alt="Jeans">
+            <p>Jeans - $40</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Jacket" data-price="60" data-image="images/jacket.jpeg">
+            <img src="images/Jacket.jpeg" alt="Jacket">
+            <p>Jacket - $60</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

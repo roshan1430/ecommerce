@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: url('images/ECommerce.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    position: relative;
+    color: black; /* Changed text color to black for better contrast */
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6); /* Increased brightness by making the overlay more opaque */
+    z-index: -1;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.8); /* Lightened the header */
+    padding: 10px;
+    color: black;
+}
+
+nav a {
+    color: black; /* Changed nav link color to black */
+    margin: 10px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Allows products to wrap if the screen is small */
+    padding: 20px;
+    gap: 20px; /* Adds spacing between products */
+}
+
+.product {
+    background: rgba(255, 255, 255, 0.7); /* Lightened product background */
+    padding: 15px;
+    border-radius: 10px;
+    color: black;
+    text-align: center;
+    width: 250px; /* Adjust width to align better in landscape mode */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+button {
+    background: #007bff; /* Changed button to a bright blue */
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #0056b3;
+}

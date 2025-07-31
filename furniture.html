@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furniture - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Furniture</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <div class="product" data-name="Table" data-price="100" data-image="images/table.jpeg">
+            <img src="images/table.jpeg" alt="Table">
+            <p>Table - $100</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Chair" data-price="50" data-image="images/chair.jpeg">
+            <img src="images/chair.jpeg" alt="Chair">
+            <p>Chair - $50</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Sofa" data-price="300" data-image="images/sofa.jpeg">
+            <img src="images/sofa.jpeg" alt="Sofa">
+            <p>Sofa - $300</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

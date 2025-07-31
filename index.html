@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 0;
+        }
+        header {
+            background-color: skyblue;
+            color: white;
+            padding: 20px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 50px;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 28px;
+        }
+        .logo {
+            width: 50px;
+            height: 50px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+        .categories {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .category {
+            width: 200px;
+            text-align: center;
+        }
+        .category img {
+            width: 100%;
+            border-radius: 10px;
+            cursor: pointer;
+        }
+        .category p {
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="images/RD.jpeg" alt="Roshan Logo" class="logo"> <!-- Add your logo here -->
+        <h1> <marquee> All in One Online Store </marquee> </h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Featured Categories</h2>
+        <div class="categories">
+            <div class="category">
+                <a href="electronics.html">
+                    <img src="images/electronic.jpeg" alt="Electronics">
+                    <p>Electronics</p>
+                </a>
+            </div>
+            <div class="category">
+                <a href="clothing.html">
+                    <img src="images/clothing.jpeg" alt="Clothing">
+                    <p>Clothing</p>
+                </a>
+            </div>
+            <div class="category">
+                <a href="furniture.html">
+                    <img src="images/furniture.jpeg" alt="Furniture">
+                    <p>Furniture</p>
+                </a>
+            </div>
+            <div class="category">
+                <a href="decoratives.html">
+                    <img src="images/decoratives.jpeg" alt="Decoratives">
+                    <p>Decoratives</p>
+                </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

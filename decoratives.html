@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoratives - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Decoratives</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="cart.html">Cart</a>
+        </nav>
+    </header>
+    <main>
+        <div class="product" data-name="Curtains" data-price="30" data-image="images/curtains.jpeg">
+            <img src="images/curtains.jpeg" alt="Curtains">
+            <p>Curtains - $30</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Painting" data-price="80" data-image="images/painting.jpeg">
+            <img src="images/painting.jpeg" alt="Painting">
+            <p>Painting - $80</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+        <div class="product" data-name="Poster" data-price="15" data-image="images/poster.jpeg">
+            <img src="images/poster.jpeg" alt="Poster">
+            <p>Poster - $15</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

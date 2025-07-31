@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-Commerce</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Our Products</h1>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="products.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="checkout.html">Checkout</a>
+        </nav>
+    </header>
+    <main>
+        <div class="product" data-name="Laptop" data-price="800" data-image="images/laptop.jpg">
+            <img src="images/laptop.jpeg" alt="Laptop">
+            <p>Laptop - $800</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+        <div class="product" data-name="T-Shirt" data-price="20" data-image="images/tshirt.jpg">
+            <img src="images/tshirt.jpeg" alt="T-Shirt">
+            <p>T-Shirt - $20</p>
+            <button onclick="addToCart(this)">Add to Cart</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
